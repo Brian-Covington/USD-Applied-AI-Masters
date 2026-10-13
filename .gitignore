@@ -1,0 +1,41 @@
+# ====================================================================
+# Data & Large Datasets (Block raw data imports from local/cloud)
+# ====================================================================
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.xml
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.gz
+
+# ====================================================================
+# Deep Learning Weights, Checkpoints & Serialization
+# ====================================================================
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.onnx
+*.pb
+*.safetensors
+*.ckpt
+
+# ====================================================================
+# Notebook & Runtime Artifacts (Stop local checkpoint duplicates)
+# ====================================================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+env/
+venv/
